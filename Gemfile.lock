@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.3.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.1.10)
+    diff-lcs (1.5.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    language_server-protocol (3.16.0.3)
+    minitest (5.16.2)
+    prettier_print (0.1.0)
+    rake (13.0.6)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+    ruby-lsp (0.2.1)
+      language_server-protocol
+      sorbet-runtime
+      syntax_tree (>= 2.4)
+    sorbet-runtime (0.5.10274)
+    syntax_tree (3.3.0)
+      prettier_print
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  activesupport
+  rake
+  rspec
+  ruby-lsp (~> 0.2.1)
+
+BUNDLED WITH
+   2.3.7
